@@ -3,6 +3,8 @@
 body {
   font-size: $default-font-size; //16px;
   font-family: "Manrope", sans-serif;
+  font-feature-settings: "liga" off, "clig" off;
+  color: $color-primary-cyan;
 }
 
 .heading-primary {

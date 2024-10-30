@@ -1,5 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap";
 body {
+  font-feature-settings: "liga" off, "clig" off;
+  color: #cee3e9;
   font-family: Manrope, sans-serif;
   font-size: 1.6rem;
 }
@@ -28,6 +30,52 @@ html {
 
 body {
   box-sizing: border-box;
+  background-color: #1f2632;
+  justify-content: center;
+  padding: 223px 450px;
+  display: flex;
   overflow-x: hidden;
+}
+
+.advice-card {
+  background: #323a49;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  padding: 48px 48px 72px;
+  display: flex;
+  position: relative;
+}
+
+.advice-card__id-text {
+  color: #52ffa8;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.advice-card__quote {
+  text-align: center;
+  letter-spacing: -.3px;
+  padding: 24px 0 48px;
+  font-size: clamp(2.4rem, 5vw, 2.8rem);
+}
+
+.advice-card__svg-divider {
+  width: 100%;
+}
+
+.advice-card__icon {
+  background-color: #52ffa8;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  bottom: -32px;
+}
+
+.advice-card__icon--image {
+  transform: translate(20px, 20px);
 }
 /*# sourceMappingURL=index.b458fa94.css.map */
