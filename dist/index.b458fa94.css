@@ -46,6 +46,7 @@ body {
   padding: 48px 48px 72px;
   display: flex;
   position: relative;
+  box-shadow: 30px 50px 80px #0000001a;
 }
 
 .advice-card__id-text {
@@ -67,12 +68,18 @@ body {
 }
 
 .advice-card__icon {
+  cursor: pointer;
   background-color: #52ffa8;
   border-radius: 50%;
   width: 64px;
   height: 64px;
+  transition: box-shadow .3s;
   position: absolute;
   bottom: -32px;
+}
+
+.advice-card__icon:hover {
+  box-shadow: 0 0 25px 10px #52ffa866;
 }
 
 .advice-card__icon--image {
