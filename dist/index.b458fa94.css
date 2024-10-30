@@ -70,7 +70,9 @@ body {
 .advice-card__icon {
   cursor: pointer;
   background-color: #52ffa8;
+  border: none;
   border-radius: 50%;
+  outline: none;
   width: 64px;
   height: 64px;
   transition: box-shadow .3s;
@@ -80,9 +82,5 @@ body {
 
 .advice-card__icon:hover {
   box-shadow: 0 0 25px 10px #52ffa866;
-}
-
-.advice-card__icon--image {
-  transform: translate(20px, 20px);
 }
 /*# sourceMappingURL=index.b458fa94.css.map */
