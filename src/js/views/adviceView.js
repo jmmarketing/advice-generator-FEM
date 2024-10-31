@@ -1,4 +1,4 @@
-import icons from "url:../../../images/icons.svg ";
+// import icons from "url:../../../images/icons.svg ";
 
 class AdviceView {
   _contentElement = document.querySelector(".advice-card__content");
@@ -20,17 +20,17 @@ class AdviceView {
     this._contentElement.insertAdjacentHTML("beforeend", html);
   }
 
-  renderSpinner() {
-    const html = `
-    <div class="spinner">
-         <svg>
-          <use href="${icons}#icon-loader"></use>
-         </svg>
-      </div>
-`;
-    this._clear();
-    this._contentElement.insertAdjacentHTML("beforeend", html);
-  }
+  //   renderSpinner() {
+  //     const html = `
+  //     <div class="spinner">
+  //          <svg>
+  //           <use href="${icons}#icon-loader"></use>
+  //          </svg>
+  //       </div>
+  // `;
+  //     this._clear();
+  //     this._contentElement.insertAdjacentHTML("beforeend", html);
+  //   }
 
   _clear() {
     this._contentElement.innerHTML = "";

@@ -4,7 +4,7 @@ import * as model from "./model.js";
 console.log("JS FILE LOADED!");
 
 const controlAdvice = async function () {
-  adviceView.renderSpinner();
+  //   adviceView.renderSpinner();
   await model.getAdvice();
 
   adviceView.renderAdvice(model.advice);

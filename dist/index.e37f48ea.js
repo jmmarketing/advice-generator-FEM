@@ -590,6 +590,7 @@ var _adviceViewJsDefault = parcelHelpers.interopDefault(_adviceViewJs);
 var _modelJs = require("./model.js");
 console.log("JS FILE LOADED!");
 const controlAdvice = async function() {
+    //   adviceView.renderSpinner();
     await _modelJs.getAdvice();
     (0, _adviceViewJsDefault.default).renderAdvice(_modelJs.advice);
 };
@@ -599,6 +600,7 @@ const init = function() {
 init();
 
 },{"./views/adviceView.js":"6LGjr","./model.js":"Y4A21","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6LGjr":[function(require,module,exports) {
+// import icons from "url:../../../images/icons.svg ";
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class AdviceView {
@@ -617,6 +619,17 @@ class AdviceView {
         this._clear();
         this._contentElement.insertAdjacentHTML("beforeend", html);
     }
+    //   renderSpinner() {
+    //     const html = `
+    //     <div class="spinner">
+    //          <svg>
+    //           <use href="${icons}#icon-loader"></use>
+    //          </svg>
+    //       </div>
+    // `;
+    //     this._clear();
+    //     this._contentElement.insertAdjacentHTML("beforeend", html);
+    //   }
     _clear() {
         this._contentElement.innerHTML = "";
     }
