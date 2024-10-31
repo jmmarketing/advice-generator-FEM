@@ -9,6 +9,7 @@
   },
   "author": "Jeffrey McLean",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "parcel": "^2.12.0"
   },

@@ -75,6 +75,7 @@ body {
   font-size: 1.3rem;
   letter-spacing: 4px;
   text-transform: uppercase;
+  text-align: center;
 }
 .advice-card__quote {
   font-size: clamp(2.4rem, 5vw, 2.8rem);

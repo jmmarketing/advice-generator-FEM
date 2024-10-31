@@ -584,8 +584,100 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"aenu9":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _adviceViewJs = require("./views/adviceView.js");
+var _adviceViewJsDefault = parcelHelpers.interopDefault(_adviceViewJs);
+var _modelJs = require("./model.js");
 console.log("JS FILE LOADED!");
+const controlAdvice = async function() {
+    await _modelJs.getAdvice();
+    (0, _adviceViewJsDefault.default).renderAdvice(_modelJs.advice);
+};
+const init = function() {
+    (0, _adviceViewJsDefault.default).addHandlerNewAdvice(controlAdvice);
+};
+init();
 
-},{}]},["hycaY","aenu9"], "aenu9", "parcelRequire1189")
+},{"./views/adviceView.js":"6LGjr","./model.js":"Y4A21","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6LGjr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class AdviceView {
+    _contentElement = document.querySelector(".advice-card__content");
+    _button = document.querySelector(".advice-card__icon");
+    addHandlerNewAdvice(handlerFunction) {
+        this._button.addEventListener("click", handlerFunction);
+    }
+    renderAdvice(data) {
+        const html = `
+    <p class="advice-card__id-text">Advice #${data.id}</p>
+    <blockquote class="advice-card__quote">
+          "${data.advice}"
+    </blockquote>
+    `;
+        this._clear();
+        this._contentElement.insertAdjacentHTML("beforeend", html);
+    }
+    _clear() {
+        this._contentElement.innerHTML = "";
+    }
+}
+exports.default = new AdviceView();
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"Y4A21":[function(require,module,exports) {
+// [Advice Slip API](https://api.adviceslip.com)
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "advice", ()=>advice);
+parcelHelpers.export(exports, "getAdvice", ()=>getAdvice);
+var _configJs = require("./config.js");
+let advice = {};
+const getAdvice = async function() {
+    try {
+        const response = await fetch((0, _configJs.API_URL));
+        const data = await response.json();
+        if (!response.ok) throw new Error(`Error! ${data.message}. Response Code: ${response.status}`);
+        advice = data.slip;
+    } catch (error) {
+        throw error;
+    }
+};
+
+},{"./config.js":"k5Hzs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k5Hzs":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "API_URL", ()=>API_URL);
+const API_URL = "https://api.adviceslip.com/advice";
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hycaY","aenu9"], "aenu9", "parcelRequire1189")
 
 //# sourceMappingURL=index.e37f48ea.js.map
