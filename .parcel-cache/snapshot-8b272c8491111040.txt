@@ -21,7 +21,7 @@
 140C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\actual\typed-array\some.js133747926108985730 0
 137C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\caniuse-lite\data\regions\IT.js133747925823436620 0
 142C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\css-tree\cjs\syntax\function\var.cjs133747925728433365 0
-97C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist133754690622491888 1
+97C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist133754839557501867 1
 139C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\lmdb\dependencies\lz4\lib\lz4hc.c133747925597239607 0
 124C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\tslib\tslib.es6.js133747925433688586 0
 142C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\features\typed-array\keys.js133747926069728993 0
@@ -105,7 +105,7 @@
 163C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133747925699449246 0
 128C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\timsort\src\timsort.js133747925475057809 0
 139C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\features\object\assign.js133747925724686993 0
-121C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\components\_advice.scss133748797962043700 0
+121C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\components\_advice.scss133754839553390622 0
 142C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\stable\array-buffer\index.js133747926032187690 0
 137C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\css-select\lib\esm\general.d.ts133747925681134642 0
 150C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\features\instance\find-last-index.js133747925960656538 0
@@ -139,7 +139,7 @@
 142C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\css-tree\lib\syntax\node\Selector.js133747925789835293 0
 131C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\@parcel\codeframe\LICENSE133747925335118200 0
 129C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\domhandler\lib\index.js133747925346314534 0
-120C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist\index.b458fa94.css.map133754690622159619 0
+120C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist\index.b458fa94.css.map133754839557463225 0
 171C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\scope133747925728753208 1
 125C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\@swc\helpers\_\_set133747925718358558 1
 114C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\get-port133747925426294725 1
@@ -347,7 +347,7 @@
 152C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\css-select\node_modules\entities\lib\escape.js133747925508480791 0
 120C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\lmdb\README.md133747925742602564 0
 143C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\csso\node_modules\css-tree\lib\syntax133747925769300771 1
-110C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\main.css.map133754690620633127 0
+110C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\main.css.map133754839556133009 0
 123C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\semver\preload.js133747925579813437 0
 108C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\components133747937451176708 1
 143C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\es\string\virtual\fontsize.js133747925971109369 0
@@ -356,7 +356,7 @@
 137C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\source-map-js\lib\quick-sort.js133747925461308057 0
 115C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\is-number133747925369471546 1
 119C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\layouts\_headers.scss133747187488191367 0
-106C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\main.css133754690620633127 0
+106C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\main.css133754839556142983 0
 148C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\caniuse-lite\data\features\webtransport.js133747925950525904 0
 140C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\internals\a-constructor.js133747925479347361 0
 152C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\modules\esnext.symbol.pattern-match.js133747925952455644 0
@@ -391,7 +391,7 @@
 119C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\base\_animations.scss133754688480723264 0
 148C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\@parcel\packager-js\lib\CJSOutputFormat.js133747925347002695 0
 145C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\csso\node_modules\mdn-data\api\index.js133747925354632099 0
-113C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\base\_base.scss133748013570193202 0
+113C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\sass\base\_base.scss133754839213425869 0
 143C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\internals\reflect-metadata.js133747926099736548 0
 139C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\full\iterator\to-async.js133747926121938317 0
 139C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\node_modules\core-js\full\instance\for-each.js133747925972336091 0
@@ -9560,4 +9560,4 @@
 108C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist\index.html133754688500252028 0
 124C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist\favicon-32x32.654148d5.png133754688500252028 0
 115C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist\index.e37f48ea.js133754688578796569 0
-116C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist\index.b458fa94.css133754690621990080 0
+116C:\Users\jeffm\Desktop\Design -Development Education\Design\Frontend Mentor\Advice-generator\dist\index.b458fa94.css133754839557344199 0

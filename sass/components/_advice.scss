@@ -9,12 +9,17 @@
 
   padding: 48px 48px 72px 48px;
   width: 540px;
+  min-width: 343px;
 
   position: relative;
 
+  @include respond(phone) {
+    padding: 40px 24px 64px 24px;
+  }
+
   &__id-text {
     color: $color-primary-neon-green;
-    font-size: 1.3rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.3rem);
     letter-spacing: 4px;
     text-transform: uppercase;
     text-align: center;
@@ -25,6 +30,10 @@
     text-align: center;
     padding: 24px 0 48px;
     letter-spacing: -0.3px;
+
+    @include respond(phone) {
+      padding: 24px 0 32px;
+    }
   }
 
   &__svg-divider {
