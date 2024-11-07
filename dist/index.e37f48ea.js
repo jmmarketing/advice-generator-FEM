@@ -590,11 +590,12 @@ var _adviceViewJsDefault = parcelHelpers.interopDefault(_adviceViewJs);
 var _modelJs = require("./model.js");
 console.log("JS FILE LOADED!");
 const controlAdvice = async function() {
-    //   adviceView.renderSpinner();
+    (0, _adviceViewJsDefault.default).renderSpinner();
     await _modelJs.getAdvice();
     (0, _adviceViewJsDefault.default).renderAdvice(_modelJs.advice);
 };
 const init = function() {
+    document.onload = controlAdvice();
     (0, _adviceViewJsDefault.default).addHandlerNewAdvice(controlAdvice);
 };
 init();
@@ -619,17 +620,13 @@ class AdviceView {
         this._clear();
         this._contentElement.insertAdjacentHTML("beforeend", html);
     }
-    //   renderSpinner() {
-    //     const html = `
-    //     <div class="spinner">
-    //          <svg>
-    //           <use href="${icons}#icon-loader"></use>
-    //          </svg>
-    //       </div>
-    // `;
-    //     this._clear();
-    //     this._contentElement.insertAdjacentHTML("beforeend", html);
-    //   }
+    renderSpinner() {
+        const html = `
+      <div class="loading-spinner"></div>
+  `;
+        this._clear();
+        this._contentElement.insertAdjacentHTML("beforeend", html);
+    }
     _clear() {
         this._contentElement.innerHTML = "";
     }

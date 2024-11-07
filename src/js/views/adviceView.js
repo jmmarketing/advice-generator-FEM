@@ -20,17 +20,13 @@ class AdviceView {
     this._contentElement.insertAdjacentHTML("beforeend", html);
   }
 
-  //   renderSpinner() {
-  //     const html = `
-  //     <div class="spinner">
-  //          <svg>
-  //           <use href="${icons}#icon-loader"></use>
-  //          </svg>
-  //       </div>
-  // `;
-  //     this._clear();
-  //     this._contentElement.insertAdjacentHTML("beforeend", html);
-  //   }
+  renderSpinner() {
+    const html = `
+      <div class="loading-spinner"></div>
+  `;
+    this._clear();
+    this._contentElement.insertAdjacentHTML("beforeend", html);
+  }
 
   _clear() {
     this._contentElement.innerHTML = "";
